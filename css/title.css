@@ -1,11 +1,23 @@
-body{
+#page1{
     background-color: black;
     color: white;
+    font-family: "barlow condensed", sans-serif;
+}
+#page2{
+    background-color: white;
+    color: black;
     font-family: "barlow condensed", sans-serif;
 }
 h1{
     font-family: 'Permanent Marker', cursive;
     font-size: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+}
+h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
     display: flex;
     justify-content: center;
     padding: 120px;
@@ -33,6 +45,9 @@ button{
 button:hover{
     background-color: grey;
 }
-nav{
+carousel-content{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
     color: white;
 }
